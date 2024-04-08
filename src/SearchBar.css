@@ -1,0 +1,24 @@
+.suggestion-box {
+    max-height: 200px; 
+    max-width: 250px;
+    overflow-y: auto; 
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    margin-top: 5px; 
+  }
+  
+  .suggestion-list {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .suggestion-list li {
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .suggestion-list li:hover {
+    background-color: #f0f0f0; 
+  }
+  
